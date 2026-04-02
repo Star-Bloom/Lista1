@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 int main(int argc, char** argv)
@@ -12,7 +13,7 @@ int main(int argc, char** argv)
 	cout << "Insira o segundo numero: ";
 	cin >> valor2;
 	
-	media =  (valor1 * valor2);
+	media = sqrt (valor1 * valor2);
 	
 	cout << "A media geometrica calculada: " << media;
 	
