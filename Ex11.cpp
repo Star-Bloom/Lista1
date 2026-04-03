@@ -13,7 +13,7 @@ int main(int argc, char** argv)
 	cout << "Insira o segundo valor: ";
 	cin >> valor2;
 	
-	resultado = (valor1, valor2);
+	resultado = std::pow (valor1, valor2);
 	
 	cout << "O valor calculado: " << resultado;
 	return 0;
